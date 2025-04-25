@@ -28,13 +28,13 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
+  width: 50%;
   height: 320px;
   float: left;
 }
 
 #column-1 {
-  background: #f00909;
+  background: brown;
 }
 
 #column-2 {
@@ -85,23 +85,26 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: red;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: green;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: orange;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: purple;
+    width: 33.3%;
   }
 
   footer {
-    background-color: ;
+    background-color: pink;
   }
-   
+  .col-3 {
+    width: 33.3%;
+  }
 }
